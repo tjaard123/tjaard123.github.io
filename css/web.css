@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+  .cover h1 {
+    font-size: 40pt;
+    font-weight: bold;
+  }
+  .lead {
+    font-size: 28pt;
+  }
+}

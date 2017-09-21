@@ -1,0 +1,41 @@
+@media (max-width: 410px) {
+  .cover h1 {
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .lead {
+    font-size: 14px;
+  }
+  .social .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav li {
+    border-bottom: 1px #e7e7e7 solid;
+    text-align: left;
+    font-size: 20px;
+    padding: 7px;
+    border-right: none;
+  }
+  .nav li:first-child {
+    padding-top: 0;
+    border-left: none;
+  }
+  .nav li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  .idea-list li {
+    font-size: 12pt;
+  }  
+}
+
+@media (max-width: 990px) {
+  .nav li {
+    width: auto;
+  }
+}
