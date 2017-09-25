@@ -16,6 +16,9 @@ I spent my initial years in the industry at the huge consulting firm, Accenture.
 # Reading, Research & University
 I enjoy reading non-fiction, a variety of fields interests me, any kind of science, astrophysics, cosmology, history, biographies, religion and philosophy.  For my computer science [masters degree](https://dspace.nwu.ac.za/handle/10394/4411) on image processing I had the opportunity to work on a problem related to astrophysics.  I was fortunate enough to work with two brilliant professors.  Here I could combine my love for science and hard core programming logic.  This interest still surfaces every now and then when I can find the time to entertain it.
 
+# Speaking
+Having started out at the North-West University as lecturer, teaching has always been close to heart.  Although teaching in tech is better described as sharing experiences, you never give a lecture or talk without also learning something.  The field is so wide and moves way to fast, it is impossible to know everything.  I've returned plenty times to the university to talk about security and the Agile process.  I've been privileged to [talk](https://docs.google.com/presentation/d/1QtizRt3u8pvP8am7ZHAUMIRx_ZfX6JPWxjPKjTyXtug/edit?usp=sharing) at the [SCRUM user group](https://www.meetup.com/Scrum-User-Group-Johannesburg/events/238828254/) and their SCRUM gathering conference as well, combining a lot of the ideas on this blog.
+
 # Departure point
 My passion for coding started through games.  I built my own maps, built modifications for games like Quake 2 and Half-life and me and a friend even tried building a real time strategy game from scratch.  To try and balance my geekiness (not successful according to my friends), I enjoy music, plays, poetry & any kind of sport.
 

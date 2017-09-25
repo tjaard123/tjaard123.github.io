@@ -4,6 +4,17 @@
   font-family: 'Open Sans', sans-serif;  
 }
 
+.scroll {
+  background-image: url('/img/scrolldown.gif');
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  height: 70px;
+}
+
 .minifig {
   width: 140px;
   border: 7px solid #fff;
