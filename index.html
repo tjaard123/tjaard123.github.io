@@ -2,12 +2,14 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107090718-1"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments) };
-    gtag('js', new Date());
-    gtag('config', 'UA-107090718-1');
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-107090718-1', 'auto');
   </script>
 
   <meta charset="utf-8" />
@@ -25,14 +27,9 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/compiled.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet" />
-  <link href="css/web.css" rel="stylesheet" />
-  <link href="css/mobile.css" rel="stylesheet" />
 </head>
 
 <body ng-app="blog">
@@ -53,13 +50,5 @@
   <ng-view autoscroll="true"></ng-view>
 
 </body>
-<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-  crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.min.js"></script>
-<script src="js/marked.min.js"></script>
-<script src="js/blog.js"></script>
-
+<script src="/js/compiled.js"></script>
 </html>
