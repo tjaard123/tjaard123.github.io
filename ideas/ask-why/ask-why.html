@@ -1,38 +1,62 @@
 <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 <style>
   .cover {
-    background: #000;
+    background-image: url(/ideas/ask-why/why.jpg);
+    background-size: cover;
+    background-position: bottom;
   }
-
-  .cover {
-    font-family: 'Press Start 2P', cursive;
-    text-transform: uppercase;
-  }
-
-  .header-img {
-    width: 100%;
-  }
-
-  .lead {
-    font-size: 28px;
-  }
-
+  
   @media (max-width: 430px) {
     .cover h1 {
-      font-size: 24px;
+      background-position: center;
     }
+  }
 
-    .lead {
-      font-size: 12px;
-    }
+  blockquote {
+    font-style: italic;
+    font-size: 20px;
+    color: rgba(164, 30, 247, 1);
+  }
+
+  .ask-iterator .btn {
+    color: rgba(164, 30, 247, 1);
+    background-color: white;
+    border-color: rgba(164, 30, 247, 1);
+    font-size: 20px
+  }
+
+  .ask-iterator .btn:hover {
+    color: white;
+    background-color: rgba(164, 30, 247, 1);
+    border-color: rgba(164, 30, 247, 1);
+    font-size: 20px
+  }
+
+  .ask-iterator .bcat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .ask-iterator h1, .ask-iterator h2 {
+    font-size: 20px;
+    letter-spacing: -0.4px;
+    line-height: 1.5;
+    margin-bottom:0;
+  }
+
+  .ask-iterator h2 {
+    font-style: italic;
+    color: rgba(164, 30, 247, 1);
+    margin-right: 20px;
   }
 </style>
 
 <div class="cover">
   <div class="cover-inner">
-    <h1>Just Start</h1>
-    <p class="lead">Embrace Uncertainty</p>
-    <img src="/ideas/just-start/start-game.png" width="120px" />
+    <h1>Ask questions</h1>
+    <p class="lead">Curiosity makes you smarter</p>
   </div>
 </div>
 
@@ -46,6 +70,26 @@
   </div>
 </div>
 
-<br/><br/><br/>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+      <div class="ask-iterator" ng-controller="AskController">
+        <div class="btn-group">
+          <button class="btn btn-primary" ng-click="iteration = iteration - 1"><<</button>
+          <button class="btn btn-primary" ng-click="iteration = iteration + 1">Ask business cat a question >></button>
+        </div>
+        <div class="bcat">
+          <div>
+            <h1>{{questions[iteration].question}}</h1>
+            <h2>{{questions[iteration].answer}}</h2>
+          </div>
+          <img class="header-img" src="\ideas\ask-why\bcat.png" width="90px" />
+        </div>
+        <img class="header-img" src="{{questions[iteration].image}}" width="100%" />
+      </div>
+    </div>
+  </div>
+</div>
 
-<img class="header-img" src="\ideas\just-start\traditional-vs-lean.png" />
+<br/><br/><br/>
+<br/><br/><br/>
