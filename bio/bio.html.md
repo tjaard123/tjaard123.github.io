@@ -20,6 +20,4 @@ Having started out at the North-West University as lecturer, teaching has always
 I enjoy reading non-fiction, a variety of fields interests me, any kind of science, astrophysics, cosmology, history, biographies, religion and philosophy.  For my computer science [masters degree](https://dspace.nwu.ac.za/handle/10394/4411) on image processing I had the opportunity to work on a problem related to astrophysics.  I was fortunate enough to work with two brilliant professors.  Here I could combine my love for science and hard core programming logic.  This interest still surfaces every now and then when I can find the time to entertain it.
 
 # Departure point
-My passion for coding started through games.  I built my own maps, built modifications for games like Quake 2 and Half-life and me and a friend even tried building a real time strategy game from scratch.  To try and balance my geekiness (not successful, according to my friends), I enjoy music, plays, poetry & any kind of sport.
-
-
+My passion for coding started through games.  I built my own maps, built modifications for games like Quake 2 and Half-life and me and a friend even tried building a real time strategy game from scratch.  To try and balance my geekiness (not successful, according to my friends), I enjoy music, plays, poetry & any kind of sport. I'm a devoted Christian, you can read about my faith [here](#!/faith).

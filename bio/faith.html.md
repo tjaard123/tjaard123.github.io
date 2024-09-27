@@ -1,0 +1,7 @@
+# My declaration of faith
+
+My faith is rooted in a deep commitment to seeking God's will and glorifying His name in all I do. Each day begins with prayer, where I surrender control of my endeavors, trusting Him to bring fruit. Through prayer and aligning to His will, God will amplify the fruits of my labor, just as He did for George Muller, who built an orphanage on prayer alone. I focus on performing to my potential, not to my reward, and to be a source of life and encouragement to others. I am devoted to use my talents and blessings to generously sow into God's kingdom and make a lasting impact. As Desmond Tutu said, "We are just the light bulbs; our job is to remain screwed in."
+
+I hold a foundational Christian faith, much like what C.S. Lewis describes in Mere Christianity, though some of my views might be considered slightly liberal. I deeply love the Bible, I admire Jesus' transcendent wisdom in asking questions. I view the Bible as a rich collection of diverse genres rather than a strict rulebook, and I've found harmony between science and my faith.
+
+I'm ready for some dangerous permission, some great adventure, new freedom, some hope from nowhere, some stumbling stones, unexpected hapiness and radical grace. I'm here to give back freely and fully, what God has given to me.

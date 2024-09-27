@@ -9,6 +9,10 @@ It's a small and *oldschool* Angularjs app using [Marked](https://github.com/mar
 **Don't try this at work** - this isn't internet banking code!
 
 ```cmd
+# Use node 10
+nvm install 10
+nvm use 10
+
 npm start
 ```
 

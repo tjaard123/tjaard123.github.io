@@ -10,6 +10,7 @@
       $routeProvider
         .when('/', { templateUrl: 'main.html' })
         .when('/bio', { templateUrl: 'bio/bio.html', controller: 'MarkdownController' })
+        .when('/faith', { templateUrl: 'bio/faith.html', controller: 'MarkdownController' })
         .when('/coming-soon', { templateUrl: 'coming-soon.html' })
         .when('/just-start', { templateUrl: 'ideas/just-start/just-start.html', controller: 'MarkdownController' })
         .when('/ask-why', { templateUrl: 'ideas/ask-why/ask-why.html', controller: 'MarkdownController' });
